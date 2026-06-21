@@ -1,9 +1,15 @@
 import dotenv from "dotenv";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const moduleDir = path.dirname(fileURLToPath(import.meta.url));
+const serverRoot = path.resolve(moduleDir, "..");
+const repoRoot = path.resolve(serverRoot, "..");
 
 for (const candidate of [
+  path.join(serverRoot, ".env"),
+  path.join(repoRoot, ".env"),
   path.resolve(process.cwd(), ".env"),
-  path.resolve(process.cwd(), "..", ".env"),
 ]) {
   dotenv.config({ path: candidate });
 }
