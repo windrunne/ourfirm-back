@@ -1,0 +1,1 @@
+{"version":3,"file":"strategy.js","sourceRoot":"","sources":["../../../src/services/extraction/strategy.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,YAAY,GAAiB,CAAC,YAAY,EAAE,QAAQ,EAAE,WAAW,CAAC,CAAC;AAYhF,MAAM,UAAU,aAAa,CAAC,IAAgB,EAAE,SAAiB,EAAE,IAAY;IAC7E,OAAO,EAAE,IAAI,EAAE,SAAS,EAAE,GAAG,EAAE,IAAI,EAAE,QAAQ,EAAE,KAAK,EAAE,UAAU,EAAE,CAAC,EAAE,IAAI,EAAE,CAAC;AAC9E,CAAC"}
